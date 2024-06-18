@@ -1,7 +1,7 @@
 package main
 
 import (
-	elementprocessing "learn-rod/element_processing"
+	inputandclick "learn-rod/input_and_click"
 )
 
 func main() {
@@ -13,9 +13,10 @@ func main() {
 	//inputandclick.Input()
 	//inputandclick.Click()
 	//inputandclick.ScrollPage()
+	inputandclick.KeyCombinations()
 
 	//elementprocessing.GetTextFromElement()
 	//elementprocessing.GetImgFromElement()
 	//elementprocessing.GetAllElementsAndTraverse()
-	elementprocessing.MostUsedElementSelectors()
+	//elementprocessing.MostUsedElementSelectors()
 }
