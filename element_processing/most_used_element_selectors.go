@@ -18,7 +18,7 @@ func MostUsedElementSelectors() {
 	//with text first argument for tag, second argument for text
 	element3 := page.MustElementR("a", "Kayıt Ol")
 
-	//And theirs s posix for get all elements. like page.MustElements(a) -> gets all a tags in a list
+	//And theirs s suffix for get all elements. like page.MustElements(a) -> gets all a tags in a list
 
 	fmt.Println(element1.MustText())
 	fmt.Println(element2.MustText())
